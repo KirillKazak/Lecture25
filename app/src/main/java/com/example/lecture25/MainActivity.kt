@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        for (i in 0..11) {
+        for (i in 0..14) {
             studentList.add(Student("firstname $i", "secondname $i"))
         }
 
